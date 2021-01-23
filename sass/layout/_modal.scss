@@ -34,7 +34,7 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.is-hidden > .modal {
   transform: translate(-50%, -50%) scale(0.8);
 }
 
@@ -163,12 +163,12 @@
     background-origin: border-box;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
 
-  .personal-cb-input:checked + &::before {
-    background-image: url('../images/check.svg');
-    background-color: var(--accent-color);
-    border-color: transparent;
+    .personal-cb-input:checked + & {
+      background-image: url('../images/check.svg');
+      background-color: var(--accent-color);
+      border-color: transparent;
+    }
   }
 }
 
