@@ -1,0 +1,25 @@
+.logo {
+  color: var(--accent-color);
+  font-family: var(--logo-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-right.dark-theme {
+  color: #000000;
+}
+
+.logo-right.light-theme {
+  color: var(--primary-white-color);
+}
+
+.logo.header {
+  margin-right: 93px;
+}
+
+.logo.footer {
+  display: inline-block;
+  margin-bottom: 20px;
+}

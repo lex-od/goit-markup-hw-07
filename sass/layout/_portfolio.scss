@@ -1,10 +1,8 @@
-/* Portfolio */
-
 .portfolio {
   border-top: 1px solid #ececec;
 }
 
-/* Portfolio tabs */
+// ========== Portfolio Tabs ==========
 
 .portfolio-tabs {
   display: flex;
@@ -39,7 +37,7 @@
   color: var(--primary-white-color);
 }
 
-/* Portfolio list */
+// ========== Portfolio List ==========
 
 .portfolio-list {
   display: flex;
@@ -82,7 +80,7 @@
   height: 100%;
   padding: 63px 24px;
 
-  background-color: rgb(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-white-color);
