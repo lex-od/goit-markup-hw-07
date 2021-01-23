@@ -116,8 +116,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.accent-btn:hover,
-.accent-btn:focus {
+.accent-btn:hover, .accent-btn:focus {
   background-color: #188ce8;
 }
 
@@ -153,15 +152,18 @@ body {
   color: #afb1b8;
 }
 
+.socials-list-link.light-theme:hover, .socials-list-link.light-theme:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
 .socials-list-link.dark-theme {
   background-color: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
 }
 
-.socials-list-link:hover,
-.socials-list-link:focus {
+.socials-list-link.dark-theme:hover, .socials-list-link.dark-theme:focus {
   background-color: var(--accent-color);
-  color: var(--primary-white-color);
 }
 
 .socials-list-icon {
@@ -197,8 +199,7 @@ body {
   text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -242,8 +243,7 @@ body {
   font-style: normal;
 }
 
-.contacts-header-link:hover,
-.contacts-header-link:focus {
+.contacts-header-link:hover, .contacts-header-link:focus {
   color: var(--accent-color);
 }
 
@@ -289,8 +289,7 @@ body {
   font-style: normal;
 }
 
-.contacts-footer-link:hover,
-.contacts-footer-link:focus {
+.contacts-footer-link:hover, .contacts-footer-link:focus {
   color: var(--accent-color);
 }
 
@@ -517,8 +516,7 @@ body {
   color: #afb1b8;
 }
 
-.clients-list-link:hover,
-.clients-list-link:focus {
+.clients-list-link:hover, .clients-list-link:focus {
   border-color: var(--accent-color);
   color: var(--accent-color);
 }
@@ -658,6 +656,10 @@ body {
   text-align: center;
 }
 
+.personal-cb-label {
+  line-height: 1.71;
+}
+
 .personal-cb-label::before {
   content: '';
   width: 16px;
@@ -675,10 +677,6 @@ body {
   background-image: url("../images/check.svg");
   background-color: var(--accent-color);
   border-color: transparent;
-}
-
-.personal-cb-label {
-  line-height: 1.71;
 }
 
 .personal-cond-link {
@@ -712,8 +710,7 @@ body {
   line-height: 1.63;
 }
 
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.portfolio-btn:hover, .portfolio-btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -735,8 +732,7 @@ body {
   text-decoration: none;
 }
 
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
+.portfolio-list-link:hover, .portfolio-list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 

@@ -57,11 +57,11 @@
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-close:hover > .modal-close-icon,
-.modal-close:focus > .modal-close-icon {
-  fill: var(--accent-color);
+  .modal-close:hover > &,
+  .modal-close:focus > & {
+    fill: var(--accent-color);
+  }
 }
 
 // ========== Personal ==========
@@ -107,10 +107,10 @@
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
-}
 
-.personal-data-input:focus {
-  border-color: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .personal-data-icon {
@@ -121,10 +121,10 @@
 
   fill: var(--title-text-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.personal-data-input:focus + .personal-data-icon {
-  fill: var(--accent-color);
+  .personal-data-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .personal-data-label.comment {
@@ -135,10 +135,10 @@
   resize: none;
   height: 120px;
   padding: 12px 16px;
-}
 
-.personal-data-input.comment::placeholder {
-  color: rgba(117, 117, 117, 0.5);
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .personal-cb-wrapper {
@@ -147,29 +147,29 @@
   text-align: center;
 }
 
-.personal-cb-label::before {
-  content: '';
-  width: 16px;
-  height: 15px;
-  display: inline-block;
-  margin-right: 7px;
-  vertical-align: middle;
-
-  border: 2px solid var(--title-text-color);
-  border-radius: 2px;
-  background-origin: border-box;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.personal-cb-input:checked + .personal-cb-label::before {
-  background-image: url('../images/check.svg');
-  background-color: var(--accent-color);
-  border-color: transparent;
-}
-
 .personal-cb-label {
   line-height: 1.71;
+
+  &::before {
+    content: '';
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+
+    border: 2px solid var(--title-text-color);
+    border-radius: 2px;
+    background-origin: border-box;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .personal-cb-input:checked + &::before {
+    background-image: url('../images/check.svg');
+    background-color: var(--accent-color);
+    border-color: transparent;
+  }
 }
 
 .personal-cond-link {

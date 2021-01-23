@@ -38,11 +38,11 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
-}
 
-.contacts-footer-link:hover,
-.contacts-footer-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 // ========== Socials ==========
@@ -87,10 +87,10 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-}
 
-.subscribe-mail-input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .subscribe-bnt-icon {

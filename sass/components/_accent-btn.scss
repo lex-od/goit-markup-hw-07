@@ -14,11 +14,11 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-}
 
-.accent-btn:hover,
-.accent-btn:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .accent-btn.personal {
