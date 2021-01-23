@@ -1,7 +1,7 @@
 /* Portfolio */
 
 .portfolio {
-  border-top: 1px solid var(--portfolio-bd-color);
+  border-top: 1px solid #ececec;
 }
 
 /* Portfolio tabs */
@@ -94,7 +94,7 @@
 }
 
 .portfolio-label {
-  border: 1px solid var(--portfolio-frame-color);
+  border: 1px solid #eeeeee;
   border-top-style: none;
 
   padding: 20px 24px;
@@ -103,6 +103,7 @@
 .portfolio-name {
   margin-bottom: 4px;
 
+  color: var(--title-text-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
